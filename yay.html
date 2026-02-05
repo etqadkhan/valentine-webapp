@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Congratulations! 💕</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .yay-content {
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 30px;
+            padding: 80px 40px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            backdrop-filter: blur(10px);
+            animation: fadeIn 1s ease-in;
+        }
+        
+        .yay-text {
+            font-size: 3rem;
+            color: #d63384;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+            animation: bounce 1s ease-in-out infinite;
+            line-height: 1.4;
+        }
+        
+        .subtitle {
+            font-size: 1.5rem;
+            color: #ff6b9d;
+            margin-top: 20px;
+            font-style: italic;
+        }
+        
+        @keyframes bounce {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-20px);
+            }
+        }
+        
+        .celebration-hearts {
+            font-size: 3rem;
+            margin-top: 30px;
+            animation: float 3s ease-in-out infinite;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="hearts-background">
+            <div class="heart"></div>
+            <div class="heart"></div>
+            <div class="heart"></div>
+            <div class="heart"></div>
+            <div class="heart"></div>
+            <div class="heart"></div>
+            <div class="heart"></div>
+            <div class="heart"></div>
+        </div>
+        
+        <div class="yay-content">
+            <h1 class="yay-text">Congratulations, you've got taste 💕</h1>
+            <p class="subtitle">(not that you have a choice, wifeyyyy)</p>
+            <div class="celebration-hearts">💕💖💗💝💞💓</div>
+        </div>
+    </div>
+</body>
+</html>
